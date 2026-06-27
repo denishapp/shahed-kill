@@ -1764,7 +1764,7 @@
       start() {
         if (!ready) { setTimeout(() => this.start(), 50); return; }
         resize();
-        setTimeout(() => resize(), 300);
+        setTimeout(() => resize(), 600);
         resetGame();
         startLoop();
       },
